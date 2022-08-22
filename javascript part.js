@@ -51,7 +51,7 @@ function newGame() {
 
 
 function determineWin(index1, index2, index3) {
-    if (cells[index1].innerText == cells[index2].innerText && cells[index1].innerText == cells[index3].innerText) {
+    if (cells[index1].innerText == cells[index2].innerText && cells[index1].innerText == cells[index3].innerText){
         if (cells[index1].innerText == crossElement) {
             playerTurn.innerText = 'Player 1 wins!';
             scoreP1++;
